@@ -23,7 +23,7 @@ PerformanceDiskView::PerformanceDiskView(MainWindow *window, PerformanceButton *
     m_Button->SetInfoText2("0%");
 
     AddFlowDetail("Read", m_FlowRead);
-    AddFlowDetail("Written", m_FlowWritten);
+    AddFlowDetail("Write", m_FlowWritten);
     AddFlowDetail("Total read", m_FlowTotalRead);
     AddFlowDetail("Total written", m_FlowTotalWritten);
 
